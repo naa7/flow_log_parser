@@ -45,10 +45,10 @@ The Flow Log Parser program is designed to parse a flow log file and map each ro
 
    - `flow_log.txt`: Input file containing flow log data.
    - `lookup_table.csv`: CSV file containing the lookup table with columns `dstport`, `protocol`, and `tag`.
-   - `output.csv`: Output file where results will be written.
+   - `output.txt`: Output file where results will be written.
 
 3. **Running the Program**:
-   - Ensure that the `flow_log.txt`, `lookup_table.csv`, and `output.csv` files are in the same directory as the script.
+   - Ensure that the `flow_log.txt`, `lookup_table.csv`, and `output.txt` files are in the same directory as the script.
    - Run the script using the following command:
      ```bash
      python flow_log_parser.py

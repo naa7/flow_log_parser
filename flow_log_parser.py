@@ -101,7 +101,7 @@ class FlowLogParser:
 def main():
     flow_log_file = "flow_log.txt"
     lookup_table_file = "lookup_table.csv"
-    output_file = "output.csv"
+    output_file = "output.txt"
 
     parser = FlowLogParser(flow_log_file, lookup_table_file, output_file)
     parser.run()
